@@ -22,7 +22,6 @@ struct GameOverView: View {
 
             Button(action: onRestart) {
                 Text("Restart Game")
-                    .font(.title2)
                     .padding()
                     .frame(maxWidth: .infinity)
                     .background(Color.blue)
